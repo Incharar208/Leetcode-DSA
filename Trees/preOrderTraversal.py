@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 
-# RECURSIVE 
+# RECURSIVE SOLUTION
 class Solution:
     def preOrder(self,root,answerList):
         if root == None:
@@ -20,3 +20,6 @@ class Solution:
         self.preOrder(root, answerList)
 
         return answerList
+
+# ITERATIVE SOLUTION
+
