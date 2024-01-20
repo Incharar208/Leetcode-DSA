@@ -1,11 +1,8 @@
 from queue import Queue
-
 # initialization
 q = Queue()
-
 # to initialize a queue with a particular size :
 q = Queue(maxsize = 3)
-
 # to check if the queue is empty or not
 # return true or false
 q.empty()
