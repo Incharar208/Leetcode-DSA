@@ -1,1 +1,1 @@
-
+# intercative type questions.
