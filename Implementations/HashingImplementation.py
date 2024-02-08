@@ -34,3 +34,15 @@ myDict = {'eooooa': 1, 'aas': 2, 'udd': 3, 'sseo': 4, 'werwi': 5}
 
 print(sorted(myDict, key=len))
 
+
+
+# METHODS:
+firstValue = next(iter(hashMap.values())) # returns the first value of the hashMap
+
+hashMap.values() # returns in the form of a list, all the values of a hashMap
+
+for key, value in hashMap.items() # returns the key value pairs
+
+hashMap = defaultdict(int)
+
+
