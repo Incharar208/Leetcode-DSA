@@ -45,4 +45,10 @@ for key, value in hashMap.items() # returns the key value pairs
 
 hashMap = defaultdict(int)
 
+# sorting hashMap based on its keys and values:
+sortedHashMap = dict(sorted(hashMap.items(), key = lambda x:x[0], reverse = True))
+
+x:x[0] # sorts based on keys
+x:x[0] # sorts based on values
+
 
